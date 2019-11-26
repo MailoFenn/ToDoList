@@ -6,20 +6,20 @@ html, body{
 }
 
 .main{
-    width: 1000px;
-    margin-top: 70px;
+    width: 960px;
+    margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .left-column{
     float: left;
-    width: 475px;
+    width: 470px;
 }
 
 .right-column{
     float: right;
-    width: 475px;
+    width: 470px;
 }
 
 .point{
@@ -30,21 +30,25 @@ html, body{
 .nat{
     color: #8993ad;
     padding: 20px;
-    height: 85px;
+    padding-top: 11px;
+    font-size: 14px;
+    padding-bottom: 61px;
     margin: 0;
     
 }
 
 .head{
-    padding: 20px;
+    padding: 15px;
+    padding-left: 19px;
     margin: 0;
     display: inline-block;
+    font-size: 15px;
 }
 
 .text{
     border: #ebebeb solid 1px;
     margin: 20px;
-    margin-bottom: 0 !important;
+    margin-top: 9px;
 }
 
 .up-title{
@@ -56,27 +60,51 @@ html, body{
 .btn{
     background-color: #2174fd;
     color: #ffffff;
-    padding: 20px;
+    padding: 18px;
+    padding-bottom: 19px;
     margin: 20px;
+    margin-top: 7px;
     border: 0;
+    width: 224px;
+    font-size: 16px;
 }
 
 .right{
     padding: 20px;
+    padding-top: 27px;
+    padding-bottom: 16px;
+    font-size: 15px;
 }
 
 .delete{
     width: 10px;
-    height: auto;
+    height: 10px;
     display: inline-block !important;
+    background-image: url('../img/delete.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: none;
+    box-sizing: border-box;
+    padding: 0;
+    background-color: transparent;
 }
 
 .arrow-container{
-    width: 20px;
-    height: 20px;
+    width: 6px;
+    height: 6px;
+    display: inline-block !important;
+    background-image: url('../img/arrow.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: none;
+    box-sizing: border-box;
+    padding: 0;
     float: right;
-    margin-top: 20px;
-    margin-right: 20px;
+    background-color: transparent;
+    margin-top: 23px;
+    margin-right: 24px;
 }
 
 .head-container{
@@ -84,20 +112,31 @@ html, body{
 }
 
 #head{
-    height: 45px;
-    width: 390px;
+    height: 43px;
+    width: 368px;
     padding: 0 10px;
-    font-size: 20px;
+    font-size: 16px;
+    margin-bottom: 26px;
 }
 
 #nat{
-    width: 390px;
-    height: 220px;
+    width: 356px;
+    height: 189px;
     resize: none;
+    padding: 20px;
+    padding-left: 12px;
+    padding-top: 18px;
+    font-size: 16px;
+    font-family: Arial;
 }
 
 .comments_none{
-    display: none;
     color: #8993ad;
-    margin-top: 80px;
+    margin-top: 76px;
+}
+
+.title {
+    font-size: 19px;
+    margin-top: 22px;
+    margin-bottom: 30px;
 }
