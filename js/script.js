@@ -1,8 +1,8 @@
-$(function(){
-    $('#add').click(function(){
+$(function() {
+    $('#add').click(function() {
         var head = $('#head').val();
         var nat = $('#nat').val();
-        if ((head!='')||(nat!='')) {
+        if ((head!='')&&(nat!='')) {
             $('.comments_none').hide();
             var newElement = $(`
             <div class="point">
@@ -16,11 +16,25 @@ $(function(){
             $('#list').prepend(newElement);
             $('.text').val('');
         } else {
-            $('.text').css('border-color', 'red');
+            if (head == '') {
+                $('#head').css('border-color', 'red');
+            }
+
+            if (nat == '') {
+                $('#nat').css('border-color' , 'red');
+            }
         }
     });
 
-    $('#list').on('click', '.delete', function(){
+    $('#head').click(function(){
+        $('#head').css('border-color' , '#ebebeb');
+    });
+
+    $('#nat').click(function(){
+        $('#nat').css('border-color' , '#ebebeb');
+    });
+
+    $('#list').on('click', '.delete', function() {
         $(this).parents('.point').remove();
         console.log($('.arrow').css('background-image', '../img/arrow.png'));
 
@@ -31,7 +45,7 @@ $(function(){
         }
     });
 
-    $('#list').on('click', '.arrow', function(){
+    $('#list').on('click', '.arrow', function() {
         console.log('this work!');
             $(this).parents('.point').children('.nat').animate({
                 height: 0,

@@ -1,33 +1,33 @@
-html, body{
+html, body {
     margin: 0;
     padding: 0;
     background-color: #f5f5f5;
     font-family: Arial;
 }
 
-.main{
+.main {
     width: 960px;
     margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.left-column{
+.left-column {
     float: left;
     width: 470px;
 }
 
-.right-column{
+.right-column {
     float: right;
     width: 470px;
 }
 
-.point{
+.point {
     background-color: #ffffff;
     margin-bottom: 20px;
 }
 
-.nat{
+.nat {
     color: #8993ad;
     padding: 20px;
     padding-top: 11px;
@@ -37,27 +37,29 @@ html, body{
     
 }
 
-.head{
+.head {
     padding: 15px;
     padding-left: 19px;
+    padding-right: 14px;
     margin: 0;
     display: inline-block;
     font-size: 15px;
+    float: left;
 }
 
-.text{
+.text {
     border: #ebebeb solid 1px;
     margin: 20px;
     margin-top: 9px;
 }
 
-.up-title{
+.up-title {
     margin: 20px;
     margin-bottom: 0 !important;
     color: #8993ad;
 }
 
-.btn{
+.btn {
     background-color: #2174fd;
     color: #ffffff;
     padding: 18px;
@@ -69,49 +71,51 @@ html, body{
     font-size: 16px;
 }
 
-.right{
+.right {
     padding: 20px;
     padding-top: 27px;
     padding-bottom: 16px;
     font-size: 15px;
 }
 
-.delete{
-    width: 10px;
-    height: 10px;
+.delete {
+    width: 20px;
+    height: 20px;
     display: inline-block !important;
-    background-image: url('../img/delete.png');
+    background-image: url(../img/delete.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: 10px;
     border: none;
     box-sizing: border-box;
     padding: 0;
     background-color: transparent;
+    margin-top: 15px;
 }
 
-.arrow-container{
-    width: 6px;
-    height: 6px;
+.arrow-container {
+    width: 20px;
+    height: 20px;
     display: inline-block !important;
-    background-image: url('../img/arrow.png');
+    background-image: url(../img/arrow.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: 6px;
     border: none;
     box-sizing: border-box;
     padding: 0;
     float: right;
     background-color: transparent;
-    margin-top: 23px;
-    margin-right: 24px;
+    margin-top: 16px;
+    margin-right: 17px;
 }
 
-.head-container{
+.head-container {
     border-bottom: #f7f7f7 solid 1px;
+    padding-bottom: 10px;
 }
 
-#head{
+#head {
     height: 43px;
     width: 368px;
     padding: 0 10px;
@@ -119,7 +123,7 @@ html, body{
     margin-bottom: 26px;
 }
 
-#nat{
+#nat {
     width: 356px;
     height: 189px;
     resize: none;
@@ -130,7 +134,7 @@ html, body{
     font-family: Arial;
 }
 
-.comments_none{
+.comments_none {
     color: #8993ad;
     margin-top: 76px;
 }
